@@ -737,6 +737,10 @@ a.pure-button-selected {
     float: left;
     margin: 0 0.5em; }
 
+.nowPage {
+  font-weight: bold;
+  text-decoration: underline; }
+
 .footer {
   background: #559AC8;
   height: 90px;
