@@ -1,0 +1,15 @@
+.footer {
+    background: #559AC8;
+    height: 90px;
+    position: relative;
+	font-size: $font-s;
+    h5 {
+        @include allCenter;
+        text-align: center;
+        line-height: 2;
+
+        span {
+            color: #FFD366;
+        }
+    }
+}

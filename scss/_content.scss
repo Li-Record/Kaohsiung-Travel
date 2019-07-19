@@ -1,0 +1,22 @@
+.separationLine_wrap {
+    width: 900px;
+    margin: 8em auto 5em auto;
+    position: relative;
+    .separationLine {
+		overflow: hidden;
+		white-space: nowrap;
+		letter-spacing: 5px;
+		color: #559ac8;
+	}
+
+    img {
+    	@include allCenter;
+        width: 24px;
+        height: 24px;
+        top: 63%;
+        background: #f7f7f7;
+       
+    }
+	
+
+}

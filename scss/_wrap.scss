@@ -1,0 +1,6 @@
+.wrap {
+	@include wrapCenter(1024px, 0);
+}
+.clear {
+	@include clearFix;
+}

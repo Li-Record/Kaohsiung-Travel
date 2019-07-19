@@ -1,0 +1,99 @@
+.header {
+    background-image: url('../img/Hero.png');
+    height: 380px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h1 {
+        font-size: $font-h2;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+    }
+
+    select {
+        width: 452px;
+        display: block;
+        // margin: 0 auto;
+        @include absoluteHorizontal;
+        top: 60%;
+
+        padding: 0.8em;
+        background: rgba(255, 255, 255, 0.7);
+        border: 3px #fff solid;
+        border-radius: 3px;
+        font-size: $font-m;
+    }
+}
+
+.header::after {
+    content: "";
+    background-image: url('../img/Hero.png');
+    background-position: left;
+    background-size: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    filter: blur(2px);
+    z-index: -3;
+
+}
+
+.header::before {
+    content: "";
+    background-image: url('../img/Hero.png');
+    background-position: left;
+    background-size: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    filter: blur(8px);
+    z-index: -2;
+
+}
+
+.hotAreaTag {
+    width: 800px;
+    padding: 1em 1.5em;
+    background: #fff;
+    border-radius: 3px;
+    @include absoluteHorizontal;
+    top: 92%;
+    box-shadow: 1px 1px 3px gray;
+    #lingya {
+        background-color: #8A82CC;
+    }
+    #sanmin {
+        background-color: #FFA782;
+    }
+    #xinxing {
+        background-color: #F5D005;
+    }
+    #kaohsiung-city {
+        background-color: #559AC8;
+    }
+    h4 {
+        font-size: $font-m;
+        margin-bottom: 1em;
+    }
+
+    li {
+        float: left;
+        margin: 0 2%;
+
+        a {
+            border-radius: 5px;
+            width: 130px;
+            text-align: center;
+            padding: 0.8em 0;
+            display: block;
+            color: #fff;
+
+        }
+    }
+}

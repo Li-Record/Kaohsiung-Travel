@@ -1,0 +1,21 @@
+
+// 基本語法
+// @import、 @mixin、 @include、 @content、 $變數、 
+
+// import
+// resource
+@import 'resource/reset';
+@import 'resource/variable';
+@import 'resource/mixin';
+@import 'resource/grid';
+
+// pure 
+@import 'pure/forms';
+@import 'pure/buttons';
+
+// wrap
+@import 'wrap';
+@import 'header';		
+@import 'separation';
+@import 'areamain';
+@import 'footer';
